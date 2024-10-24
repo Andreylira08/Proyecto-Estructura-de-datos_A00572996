@@ -4,8 +4,8 @@ Sera un juego estilo speedrun, en donde se almacenaran los tiempos registrados, 
 # SICT0301B: Evalúa los componentes
 
 ## Hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados en el programa (Cambios) .
-Ordenamiento de tiempos con Merge sort cuenta con una complejidad de O(log (n)) lo que lo hace mejor que la mayoria de los algoritmos de ordenamiento. La gran mayoria de sus implementaciones son estables,lo que significa que el orden relativo de elementos iguales es el mismo en la entrada y la salida.
- 
+
+Ordenamiento de tiempos con Merge sort cuenta con una complejidad de O(log (n)) lo que lo hace mejor que la mayoria de los algoritmos de ordenamiento. La gran mayoria de sus implementaciones son estables,lo que significa que el orden relativo de elementos iguales es el mismo en la entrada y la salida. También se tomo en cuenta el peor de los casos y el mejor de los casos en donde ambos se mantienen como O(log (n)) ya que como se requiere el famoso dividir y conquistar incluso cuando el arreglo ya está ordenado, la complejidad temporal en el mejor caso sigue siendo O(n log n), al igual que en los casos promedio y peor. Esto nos es útil a la hora de trabajar con grandes volumenes de datos como en nuestro caso que son tiempos de cronómetro, nombre, fechas ya que siempre mantendra la misma velocidad y constancia. Además, Merge Sort es un algoritmo estable, lo que significa que mantendrá el orden relativo de los elementos con tiempos iguales. 
 
 # SICT0302B: Toma decisiones
 
