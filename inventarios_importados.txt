@@ -1,0 +1,9 @@
+Espada,Legendario,30,Arma,1
+Escudo,Epico,30,Defensa,2
+Palo,Normal,10,Arma,7
+Armadura,Legendario,30,Defensa,6
+Manzana,Raro,1,Comida,4
+Linterna,comun,30,Utilidad,3
+Espejo,comun,20,Utilidad,4
+Papel,raro,5,Utilidad,11
+Llave,raro,1,Utilidad,12
